@@ -15,3 +15,7 @@
    - name: print custom fact
      debug:
        msg: "Custom fact is {{ansible_local.date_time}}"
+     debug:
+       msg: "Custom fact is {{ansible_os_family}}"
+       
+       
