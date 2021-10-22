@@ -2,7 +2,7 @@
   file:
     path: "{{ item }}"
     state: directory
-   with_items:
+  with_items:
       - '/home/ansible/var21'
       - '/home/ansible/var221'
       - '/home/ansible/var132'
