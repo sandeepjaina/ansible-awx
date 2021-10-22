@@ -1,4 +1,4 @@
-- hosts: linux
+- hosts: all
   vars:
     training:
       topic: ansible
