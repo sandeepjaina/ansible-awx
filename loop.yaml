@@ -1,5 +1,4 @@
 ---
-  tasks:
     - name: loop example
       file:
         path: "{{ item }}"
